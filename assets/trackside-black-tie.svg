@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-label="Black tie Trackside Cafe illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset=".52" stop-color="#161111"/>
+      <stop offset="1" stop-color="#310806"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" x2="1">
+      <stop offset="0" stop-color="#5b0605"/>
+      <stop offset=".5" stop-color="#c1121f"/>
+      <stop offset="1" stop-color="#7c0908"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#6e521d"/>
+      <stop offset=".5" stop-color="#e2bf63"/>
+      <stop offset="1" stop-color="#80611f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <path d="M0 0H1400V900H0Z" fill="none" stroke="#c1121f" stroke-width="18" opacity=".26"/>
+  <path d="M112 96H1288V804H112Z" fill="none" stroke="#e2bf63" stroke-width="3" opacity=".42"/>
+  <path d="M150 132H1250V768H150Z" fill="none" stroke="#c1121f" stroke-width="2" opacity=".34"/>
+  <g opacity=".18">
+    <path d="M-120 760L1520 520" stroke="#e2bf63" stroke-width="24"/>
+    <path d="M-110 820L1530 580" stroke="#e2bf63" stroke-width="24"/>
+    <path d="M30 820L-8 754 M150 802L112 736 M270 784L232 718 M390 766L352 700 M510 748L472 682 M630 730L592 664 M750 712L712 646 M870 694L832 628 M990 676L952 610 M1110 658L1072 592 M1230 640L1192 574" stroke="#ffffff" stroke-width="10"/>
+  </g>
+  <g transform="translate(170 155)">
+    <path d="M0 0H590L520 80H70Z" fill="url(#red)"/>
+    <path d="M70 80H520V370H70Z" fill="#101010" stroke="#d4b45d" stroke-width="5"/>
+    <path d="M120 135H470V190H120Z" fill="#f5ead0"/>
+    <text x="295" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="42" font-weight="900" fill="#100b0a">TRACKSIDE</text>
+    <path d="M155 235H245V370H155Z" fill="#4b0707" stroke="#d4b45d" stroke-width="4"/>
+    <path d="M290 235H440V310H290Z" fill="#2d1714" stroke="#d4b45d" stroke-width="4"/>
+    <path d="M318 260H412" stroke="#d4b45d" stroke-width="4"/>
+  </g>
+  <g transform="translate(760 405)" filter="url(#glow)">
+    <path d="M0 55H395L450 120L395 185H0Z" fill="#090909" stroke="#d4b45d" stroke-width="6"/>
+    <path d="M28 82H355" stroke="#c1121f" stroke-width="26"/>
+    <path d="M28 128H355" stroke="#f5ead0" stroke-width="18" opacity=".92"/>
+    <circle cx="96" cy="196" r="36" fill="#070707" stroke="#d4b45d" stroke-width="9"/>
+    <circle cx="306" cy="196" r="36" fill="#070707" stroke="#d4b45d" stroke-width="9"/>
+  </g>
+  <g transform="translate(1010 150)">
+    <path d="M90 0L180 160H0Z" fill="#f5ead0" opacity=".94"/>
+    <path d="M90 42L126 160H54Z" fill="#090909"/>
+    <path d="M48 0H132L90 54Z" fill="#c1121f"/>
+    <circle cx="90" cy="70" r="8" fill="#d4b45d"/>
+    <circle cx="90" cy="102" r="8" fill="#d4b45d"/>
+  </g>
+  <text x="700" y="705" text-anchor="middle" font-family="Georgia,serif" font-size="96" font-weight="900" fill="#f5ead0" opacity=".9">BLACK TIE BREAKFAST</text>
+  <text x="700" y="765" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="800" fill="#d4b45d" letter-spacing="8">COFFEE • PIE • LOCAL BUSINESS</text>
+</svg>
